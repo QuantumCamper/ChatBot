@@ -1,0 +1,28 @@
+{
+  "weather_api": {
+    "provider": "openweathermap",
+    "api_key": "your_api_key_here",
+    "base_url": "http://api.openweathermap.org/data/2.5/weather",
+    "units": "metric",
+    "language": "zh_cn"
+  },
+  "server": {
+    "name": "weather-mcp-server",
+    "version": "1.0.0",
+    "description": "天气查询MCP服务器",
+    "protocol_version": "2024-11-05"
+  },
+  "mock_data": {
+    "enabled": true,
+    "cities": {
+      "北京": {"temp": 15, "desc": "晴朗"},
+      "上海": {"temp": 20, "desc": "多云"},
+      "广州": {"temp": 25, "desc": "小雨"},
+      "深圳": {"temp": 26, "desc": "阴天"},
+      "杭州": {"temp": 18, "desc": "晴朗"},
+      "成都": {"temp": 22, "desc": "多云"},
+      "西安": {"temp": 16, "desc": "晴朗"},
+      "武汉": {"temp": 19, "desc": "阴天"}
+    }
+  }
+}
